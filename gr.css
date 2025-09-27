@@ -1,0 +1,23 @@
+.body{
+    height: 2000px;
+    width: 300px;
+}
+.one{
+    height: 50px;
+    width: 50px;
+    grid-template-columns: 4px;
+    grid-template-rows: 4px;
+    grid-auto-flow: 4px;
+}
+.two{
+    height: 50px;
+    width: 50px
+}
+.container{
+    display:grid;
+    grid-auto-flow: 4;
+    grid-template-columns: 6px;
+    height: 300px;
+    width: 400px;
+    
+}

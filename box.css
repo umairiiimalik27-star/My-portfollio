@@ -1,0 +1,42 @@
+body{
+    height: 2000px;
+}
+.box1{
+    position: static;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    border: 2px solid blue;
+}
+.box2{
+    position: relative;
+    background-color: green;
+    top: 30px;
+    margin-left: 200px;
+    height: 50px;
+    width: 50px;
+    border: 2px solid green
+}
+.box3{
+    position: absolute;
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+
+
+}
+.box4{
+    position: sticky;
+    background-color: chartreuse;
+    margin-top: 70px;
+    height: 50px;
+    width: 50px;
+}
+.box5{
+    position: fixed;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    margin-top: 80px;
+    margin-left: 80px;
+}

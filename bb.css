@@ -1,0 +1,44 @@
+body{
+    color:blueviolet;
+    height: 2000px;
+}
+.box1{
+    position:static;
+    background-color: blue; 
+    height: 50px;
+    width:50px;
+    border:2px solid rgb(140, 30, 30)
+}
+.box2{
+    position:relative;
+    background-color: chartreuse;
+    margin-left:30px;
+    top: 20px;
+    height: 50px;
+    width: 50px;
+    border:2px solid rgb(81, 35, 35)
+}
+.box3{
+    position: absolute;
+    background-color: chocolate;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    border:2px solid rgb(0, 0, 0)
+}
+.box4{
+    position:sticky;
+    background-color: crimson;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    border:2px solid black
+}
+.box5{
+    position: fixed;
+    background-color: rgb(43, 10, 54);
+    margin-left: 20px;
+    height: 50px; 
+    width: 50px;
+    border:2px solid rgb(100, 23, 89)
+}

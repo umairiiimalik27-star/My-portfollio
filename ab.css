@@ -1,0 +1,25 @@
+header{
+    background-color: aquamarine;
+    color:aquamarine;
+    padding:15px;
+    text-align: center;
+}
+footer{
+    background-color: blue;
+    color:blue;
+    padding:15px;
+    text-align: center;
+}
+contanier{
+    display: flex;
+    height: 80px;
+    width: 500;
+    align-items: center;
+    justify-content: space-around;
+}
+.item{
+    border:3px;
+    align-items: start;
+    height:80px;
+    width: 500;
+}

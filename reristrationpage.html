@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+</head>
+<body>
+    <h2>Registration Page</h2>
+    <from action="submit.php"method="Post"></from>
+    <label for="username">username:</label><br>
+    <input type="text"id="username" name="username" required><br>
+
+    <label for="password">password:</label><br>
+    <input type="password"id="password"name="password" required><br>
+    <label for="email">email:</label><br>
+    <input type="email"id="email"name="email" required><br>
+     <label for="image">Upload Image:</label>
+    <input type="file"id="image"name="image"accept="image/*"><br>
+    <label for="phone">pnone:</label><br>
+    <input type="tel"id="phone"name="phone"pattern="[0-9] {11}"placholder="03450236788"required><br>
+    <label for="Gander">Gander:</label><br>
+    <input type="radio"id="male"name="gander"value="male"required>
+    <label for="male">male</label><br>
+    <input type="radio"id="female"name="gander"value="female">
+    <label for="female">female:</label><br>
+    <!--submit Button-->
+    <input type="submit"
+    value="Register">
+</body>
+</html>
